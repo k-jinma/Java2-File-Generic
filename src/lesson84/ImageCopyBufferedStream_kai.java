@@ -25,7 +25,6 @@ class ImageCopyBufferedStream_kai {
 			while ((bytesRead = bis.read(buffer)) != -1) {
 				bos.write(buffer, 0, bytesRead);
 			}
-
 		} catch (IOException e) {
 			System.err.println("エラー: " + e.getMessage());
 		}
