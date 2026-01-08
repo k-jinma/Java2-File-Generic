@@ -11,4 +11,14 @@ class ScoreCalculator2<T extends Number> {
 		}
 		return total / scores.size();
 	}
+	
+	public double getMax(ArrayList<T> scores){
+		double max = Double.NEGATIVE_INFINITY;
+		for( T score : scores ) {
+			if( score.doubleValue() > max ) {
+				max = score.doubleValue();
+			}
+		}
+		return max;
+	}
 }
