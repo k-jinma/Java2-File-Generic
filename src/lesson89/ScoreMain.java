@@ -15,8 +15,8 @@ class ScoreMain {
 		intScores.add(88);
 		
 		// スコアを計算するクラスにArraｙListを渡して平均点を取得
-		ScoreCalculator2<Integer> intCalc = new ScoreCalculator2<>();
-		double result = intCalc.getAverage(intScores);
+		ScoreCalculator2<________> intCalc = new ScoreCalculator2<>();
+		double result = intCalc.getAverage(________);
 		System.out.println(result);
 		
 		
@@ -27,10 +27,10 @@ class ScoreMain {
 		doubleScores.add(78.4);
 		doubleScores.add(92.1);
 		doubleScores.add(88.9);
+		
 		// スコアを計算するクラスにArraｙListを渡して平均点を取得
-		ScoreCalculator2<Double> doubleCalc = new ScoreCalculator2<>();
-		double result2 = doubleCalc.getAverage(doubleScores);
-		System.out.println(result2);
+		
+		
 		
 		
 	}
