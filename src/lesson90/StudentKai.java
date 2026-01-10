@@ -20,6 +20,15 @@ class StudentKai implements Comparable<StudentKai> {
 	@Override
 	public int compareTo(StudentKai other) {
 		
+		// 比較方法とその結果を実装する
+	    if (this.score > other.score) {
+	        return 1;   // 自分の方が大きい場合は、正の値を返す
+	    } else if (this.score < other.score) {
+	        return -1;  // 自分の方が小さい場合は、負の値を返す
+	    } else {
+	        return 0;   // 等しい場合は、０を返す
+	    }
+
 	}
 
 }

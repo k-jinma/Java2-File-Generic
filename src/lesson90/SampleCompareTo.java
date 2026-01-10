@@ -15,6 +15,12 @@ class SampleCompareTo {
 		String s2 = "banana";
 		System.out.println(s1.compareTo(s2)); // -1（apple の方が辞書順で前）
 		System.out.println(s2.compareTo(s1)); // 1（banana の方が辞書順で後）
+		
+		// Student の比較
+		Student stu1 = new Student("Alice", 85);
+		Student stu2 = new Student("Bob", 90);
+		//System.out.println(stu1.compareTo(stu2)); // -1（stu1 の方が score が小さい）
+	
 
 
 	}
