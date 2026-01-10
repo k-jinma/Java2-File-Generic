@@ -16,6 +16,7 @@ class ScoreCalculator2<T> {
 		
 		double max = Double.NEGATIVE_INFINITY;
 		for( ____ score : scores ) {
+
 			if( score.doubleValue() > max ) {
 				max = score.doubleValue();
 			}
